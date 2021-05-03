@@ -21,7 +21,6 @@ a{
 /* Шапка */
 .header{
     position: relative;
-    /*padding-top: 26px; */
 }
 .header-img{
     background:url(./img/1.jpg) no-repeat;
@@ -84,7 +83,6 @@ a{
     margin-left: 92px;
     font-size: 13px;
     line-height: 1.42;
-    /*margin-top: -7px;*/
     text-decoration: underline;
 }
 
@@ -117,9 +115,11 @@ h1,h2{
 }
 
 .button{
+    display: inline-block;
     padding:18px 40px;
     background: #F5170E;
     border-radius: 35px;
+    text-transform: uppercase;
 }
 
 .button:hover{
@@ -146,7 +146,6 @@ h1,h2{
 
 .offers__list{
     margin-top: 51px;
-    max-width: 1140px;
     padding: 0;
 }
 
@@ -158,10 +157,6 @@ h1,h2{
 
 .offers__item:nth-child(3n){
     margin-right: 0px;
-}
-
-.offers__img{
-    
 }
 
 .offers__description{
@@ -185,7 +180,6 @@ h5.offer__title{
 /* Условия тура */
 .offer__subtitle{
     margin-top: 21px;
-    margin-bottom: 23px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -214,11 +208,12 @@ h5.offer__title{
     font-size: 14px;
     line-height: 1.5;
     color: #303030;
-    margin-top: 0;
-    margin-bottom: 42px;
+    margin-top: 23px;
+    margin-bottom: 0px;
 }
 /* Кнопка Смотреть */
 .button--color{
+    margin-top: 24px;
     padding: 18px 30px;
     background:#FFFFFF;
     color: #F5170E;
@@ -249,9 +244,11 @@ h5.offer__title{
     max-width: 557px;
     vertical-align: top;
     max-height: 394px;
+    margin-right: 22px;
 }
 
-.promotion__img{
+.promotion:last-child{
+    margin-right: 0px;
 }
 
 .promotion__description{
@@ -330,10 +327,6 @@ h5.offer__title{
     position: absolute;
     bottom: -95px;
     z-index: -1;
-}
-
-.about__img{
-    
 }
 
 .about__content{
