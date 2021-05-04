@@ -116,7 +116,7 @@ h1,h2{
 
 .button{
     display: inline-block;
-    padding:18px 40px;
+    padding:19px 40px 18px 40px;
     background: #F5170E;
     border-radius: 35px;
     text-transform: uppercase;
@@ -219,7 +219,7 @@ h5.offer__title{
 /* Кнопка Смотреть */
 .button--color{
     margin-top: 24px;
-    padding: 18px 30px;
+    padding: 19px 30px 18px 30px;
     background:#FFFFFF;
     color: #F5170E;
     border-color: black;
