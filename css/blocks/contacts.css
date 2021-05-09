@@ -1,0 +1,28 @@
+.contact{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__phone{
+    font-size: 26px;
+    line-height: 1.42;
+}
+
+.contact__workhours{
+    font-size: 13px;
+    line-height: 1.42;
+    text-decoration: underline;
+    margin-left: auto;
+}
+
+.contact__workhours--footer{
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.contact__phone-footer{
+    font-size: 26px;
+    line-height: 1.42;
+    float: right;
+}
