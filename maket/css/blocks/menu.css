@@ -1,0 +1,23 @@
+.menu{
+    /*margin-top: 15px;*/
+    display: flex;
+    font-size: 14px;
+    line-height: 1.42;
+}
+
+.menu__list{
+    align-items: center;
+    display: flex;
+}
+
+.menu__item{
+    margin-right: 54px;
+}
+
+.menu__item:last-child{
+    margin-right: 0px;
+}
+
+.menu__item:hover{
+    color:#DA0100
+}

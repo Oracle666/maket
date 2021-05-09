@@ -1,0 +1,22 @@
+.social-networks{
+    margin-left: 274px;
+    display: inline-block;
+}
+
+.social-network{
+    padding: 0;
+    margin: 0;
+}
+
+.social__item{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social__item:last-child{
+    margin-right: 0px;
+}
+
+.social__link{
+    cursor: pointer;
+}
