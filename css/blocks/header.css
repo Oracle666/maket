@@ -1,0 +1,10 @@
+.header__container{
+    height: 123px;
+    padding-top: 26px;
+}
+
+.header__col{
+    display: flex;
+}
+
+
