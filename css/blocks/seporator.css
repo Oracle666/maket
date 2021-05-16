@@ -1,0 +1,15 @@
+.seporator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 363px;
+    background:url(../../img/people.png) no-repeat right 30% bottom, url(../../img/Seporator.png);
+}
+
+.seporator__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    width: 53%;
+}

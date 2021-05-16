@@ -5,6 +5,7 @@
 @import url(./blocks/logo.css);
 @import url(./blocks/menu.css);
 @import url(./blocks/contacts.css);
+@import url(./blocks/dropdown.css);
 @import url(./blocks/hello.css);
 @import url(./blocks/title.css);
 @import url(./blocks/button.css);
@@ -18,3 +19,9 @@
 @import url(./blocks/breadcrumbs.css);
 @import url(./blocks/services.css);
 @import url(./blocks/partners.css);
+/*Страница приветствия*/
+@import url(./blocks/welcome.css);
+/*Отзывы*/
+@import url(./blocks/reviews.css);
+@import url(./blocks/seporator.css);
+@import url(./blocks/bottomsection.css);

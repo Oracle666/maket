@@ -9,16 +9,13 @@
     line-height: 1.42;
 }
 
-.contact__workhours{
-    font-size: 13px;
-    line-height: 1.42;
-    text-decoration: underline;
-    margin-left: auto;
-}
+
 
 .contact__workhours--footer{
+    font-size: 11px;
+    line-height: 1.42;
     text-decoration: none;
-    margin-left: 0;
+    margin-left: auto;
 }
 
 .contact__phone-footer{

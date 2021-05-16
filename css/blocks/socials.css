@@ -11,6 +11,8 @@
 .social__item{
     display: inline-block;
     margin-right: 10px;
+    width: 36px;
+    height: 36px;
 }
 
 .social__item:last-child{
@@ -19,4 +21,125 @@
 
 .social__link{
     cursor: pointer;
+
 }
+
+.social__item-inst{
+    position: relative;
+}
+
+/*Telegram*/
+.social__item-telegram:hover::before{
+    opacity: 1;
+}
+
+.social__item-telegram:hover::after{
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.social__item-telegram::before{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -10px -66px;
+    opacity: 0;
+}
+
+.social__item-telegram::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -122px -10px;
+}
+
+/*VKontakte*/
+.social__item-vk:hover::before{
+    opacity: 1;
+}
+
+.social__item-vk:hover::after{
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.social__item-vk::before{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -66px -10px;
+    opacity: 0;
+}
+
+.social__item-vk::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -122px -66px;
+}
+
+/*Facebook*/
+.social__item-facebook:hover::before{
+    opacity: 1;
+}
+
+.social__item-facebook:hover::after{
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.social__item-facebook::before{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -10px -10px;
+    opacity: 0;
+}
+
+.social__item-facebook::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -10px -122px;
+}
+
+/*Instargam*/
+.social__item-inst:hover::before{
+    opacity: 1;
+}
+
+.social__item-inst:hover::after{
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.social__item-inst::before{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -66px -66px;
+    opacity: 0;
+}
+
+.social__item-inst::after{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background: url(../../img/sprites.png) -66px -122px;
+}
+
+
+
+
