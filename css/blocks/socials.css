@@ -24,9 +24,7 @@
 
 }
 
-.social__item-inst{
-    position: relative;
-}
+
 
 /*Telegram*/
 .social__item-telegram:hover::before{

@@ -21,6 +21,7 @@
 
 .form__row--textarea{
     margin-top: 26px;
+    resize: none;
     height: 235px;
 }
 
@@ -93,11 +94,13 @@
 }
 
 input:focus{    
-    outline: 1px solid #F5170E;
+    outline: none;
+    border: 1px solid red;
 }
 
 textarea:focus{
-    outline: 1px solid #F5170E;
+    outline: none;
+    border: 1px solid red;
 }
 
 .form__button{
