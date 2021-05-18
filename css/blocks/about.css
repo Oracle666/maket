@@ -10,10 +10,14 @@
     z-index: -1;
 }
 
+.about-container{
+    position: relative;
+}
+
 .about__content{
     position: absolute;
     top:97px;
-    right: 389px;
+    right: 0px;
     width: 785px;
     height: 455px;
     background: url(../../img/mountains.png) no-repeat;
